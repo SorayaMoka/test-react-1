@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
-import {
-    Star as StarFilledIcon,
-    StarBorder as StarEmptyIcon
-} from "@material-ui/icons";
+import React from 'react';
+import { Star as StarFilledIcon, StarBorder as StarEmptyIcon } from "@material-ui/icons";
 
-export const Star = ({state}) => {
-    return (state) ? <StarFilledIcon/> : <StarEmptyIcon/>;
+export const Star = ({ state }) => {
+  return (state) ? <StarFilledIcon/> : <StarEmptyIcon/>;
 };
